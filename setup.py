@@ -33,7 +33,7 @@ class TestCommand(Command):
 
 setup(
     name='django-yamlfield',
-    version='1.0.3',
+    version='1.0.3+ruamel',
     description='A Django database field for storing YAML data',
     author='The Los Angeles Times Data Desk',
     author_email='datadesk@latimes.com',
@@ -57,5 +57,5 @@ setup(
         'Framework :: Django :: 1.10',
         'License :: OSI Approved :: MIT License',
     ],
-    cmdclass={'test': TestCommand,}
+    cmdclass={'test': TestCommand}
 )
